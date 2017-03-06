@@ -1,21 +1,54 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Google</title>
-    <meta name="description" content="Google">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="normalize.css">
-    <link rel="stylesheet" type="text/css" href="stylesheet.css">
-  </head>
-  <body>
-    <!--[if lt IE 7]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
-    
-  </body>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Google</title>
+  <meta name="description" content="Google">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+  <script src="https://use.fontawesome.com/1dfd28ebb4.js"></script>
+  <link rel="stylesheet" type="text/css" href="normalize.css">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+
+<body>
+  <nav id="topnav" class="nav">
+    <ul>
+      <li><a href="#">Gmail</a></li>
+      <li><a href="#">Bilder</a></li>
+      <li><a id="i-app" href="#"><i class="fa fa-th" aria-hidden="true"></i></a></li>
+      <li><button id="login_btn" type="button">Anmelden</button></li>
+    </ul>
+  </nav>
+  <section class="content">
+    <img id="google_logo" src="images/google-logo-lg.png" alt="Google logo">
+    <form id="search_form">
+      <input id="search_field" type="text" name="search_field">
+      <a id="mic" href="#"><img src="images/mic.png" alt="Google logo"></span></a>
+      <div id="search_buttons">
+        <input type="submit" name="g_search" value="Google-Suche">
+        <input type="submit" name="feel_lucky" value="Auf gut Glück!">
+      </div>
+    </form>
+  </section>
+  <footer>
+    <div class="left">
+      <ul>
+        <li><a href="#">Werbeprogramme</a></li>
+        <li><a href="#">Unternehmen</a></li>
+        <li><a href="#">Über Google</a></li>
+      </ul>
+    </div>
+    <div class="right">
+      <ul>
+        <li><a href="#">Werbeprogramm</a></li>
+        <li><a href="#">Unternehmen</a></li>
+        <li><a href="#">Über Google</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+
 </html>
