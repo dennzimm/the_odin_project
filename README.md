@@ -7,7 +7,3 @@ Learning to code on your own sucks. It's time consuming, difficult to stay motiv
 Because it's hard! It takes about 1,000 hours of work to go from zero to employable as a web developer. The project aims to solve the biggest issues of that journey -- knowing what to learn and build and finding other students to learn with along the way.
 
 *[source](http://www.theodinproject.com/about)*
-
-
-# Finished Projects
-* [Build the Google homepage (Easy Version)](https://cdn.rawgit.com/dennzimm/the_odin_project/bbbbf871/001_google_homepage_easy/index.html)
